@@ -2,11 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function ColorSchemesExample() {
+function Navii() {
   return (
     <>
 
-      <Navbar bg="primary" variant="dark">
+      <Navbar sticky='top' bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
@@ -21,4 +21,4 @@ function ColorSchemesExample() {
   );
 }
 
-export default ColorSchemesExample;
+export default Navii;
